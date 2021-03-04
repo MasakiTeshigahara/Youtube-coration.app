@@ -2,13 +2,13 @@
     <v-container>
         <input-form
             formRounded="xl"
-            :formElevation="formElvation"
+            :formElevation="formElevation"
             @storeMovie="storeMovie"
         />
         <movies
             ref="movies"
             :movie-items="movieItems"
-            :looding="loading"
+            :loading="loading"
             @deleteMovie="deleteMovie"
         />
     </v-container>

@@ -71,7 +71,7 @@ export default {
             type: Array,
             default: null,
         },
-        looding: {
+        loading: {
             type: Boolean,
             required: true,
             default: true,
